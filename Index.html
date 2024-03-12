@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seal Releases</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="d-flex align-items-center">
+                <img id="logo" src="/20240312_132235.jpg" alt="Seal Logo" class="mr-3" width="60" height="auto">
+                <div>
+                    <h1 class="mb-0">Seal</h1>
+                    <p>YouTube Video / Audio Downloader</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-secondary filter-button" data-filter="stable">
+                        <i class="fas fa-check-circle mr-1"></i> Stable
+                    </button>
+                    <button type="button" class="btn btn-secondary filter-button" data-filter="beta">
+                        <i class="fas fa-exclamation-circle mr-1"></i> Beta
+                    </button>
+                    <button type="button" class="btn btn-secondary filter-button" data-filter="all">
+                        All
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="versions-container" class="row">
+            <!-- Version cards will be dynamically added here -->
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <a href="https://github.com/" class="btn btn-outline-dark">
+                <i class="fab fa-github mr-1"></i> GitHub
+            </a>
+            <p class="mb-0 mt-2">© 2024 Seal Releases. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
