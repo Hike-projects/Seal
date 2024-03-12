@@ -10,7 +10,7 @@ var versions = [
       { icon: "star", text: "<b>Changed:</b> <br> - Long pressing on an item in download history now selects it <br> - Metadata is also added to videos now <br> - A few UI changes that I forgot" },
       { icon: "bug", text: "<b>Fixed:</b> <br> - Fix a permission issue when using Seal in a different user profile or private space <br> - Fix an issue where the text cannot be copied in the menu of the download history" }
     ],
-    downloadLink: "https://dropgalaxy.in/50lo7zpmihep" // Example download link
+    downloadLink: "https://dropgalaxy.co/50lo7zpmihep" // Example download link
   },
 
   { 
@@ -22,7 +22,7 @@ var versions = [
       { icon: "bug", text: "<b>Fixed Bugs:</b> <br> • App creates duplicated command templates on initialization <br> • Cannot make video clip in FormatPage" }, 
       { icon: "star", text: "Improved more gratitude to sponsors" }
     ],
-    downloadLink: "https://dropgalaxy.in/i4ywr8lkdezk" // Example download link
+    downloadLink: "https://dropgalaxy.co/i4ywr8lkdezk" // Example download link
   }
 ];
 
